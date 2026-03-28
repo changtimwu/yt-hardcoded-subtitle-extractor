@@ -47,3 +47,20 @@ your-workspace/
 ```
 
 Each audio clip is ~3 seconds, Opus-encoded in a `.webm` container (~48 KB each).
+
+## Example
+
+Six subtitle frames captured from 世間路 EP40 (a Hokkien/Taiwanese drama). Each cell shows the burned-in Traditional Chinese subtitle text at the bottom of the frame, along with the timestamp and text label.
+
+![Subtitle frames proof-of-concept](subtitle_frames_poc.png)
+
+The extracted subtitle index (`subtitles_ep40_poc.csv`) for the same scene:
+
+| timestamp_s | subtitle_text | notes |
+|-------------|---------------|-------|
+| 195 | 你害我爸把土地賣掉 | You caused my father to sell the land |
+| 198 | 你先聽我解釋，好嗎 | Please listen to my explanation first |
+| 206 | 那我讓你打 | Then I'll let you hit me |
+| 238 | 我做股票 | I traded stocks |
+| 242 | 你沒憑沒據 | You have no proof/evidence |
+| 258 | 你是你、我是我 | You are you and I am I |
